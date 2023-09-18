@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Mooli&family=Roboto:wght@400;700&family=Teko&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Lista de telefones</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda de Numeros</h1>
+        </header>
+        <form id="form-agenda">
+            <input type="text" id="nome-contato" placeholder="Contato">
+            <input type="tel" id="numero-telefone" placeholder="Numero telefone" min="0" max="14" required>
+            <button type="submit">Adicionar +</button>
+        </form>
+        <table cellspacing="">
+            <thead>
+                <tr>
+                    <th>
+                        Contato
+                    </th>
+                    <th>
+                        Numero do telefone
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>           
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
